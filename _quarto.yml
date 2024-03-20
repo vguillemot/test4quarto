@@ -8,8 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - page1/page1.qmd
-      - page2/page2.qmd
+      - href: pages/page1.qmd
+        text: Page 1
+      - href: pages/page2.qmd
+        text: Page 2 avec plein de texte
 
 format:
   html:

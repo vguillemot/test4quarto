@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "hopla"
@@ -17,4 +18,3 @@ format:
     toc: true
 
 editor: source
-

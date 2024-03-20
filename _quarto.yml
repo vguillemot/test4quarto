@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "hopla"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - page1/page1.qmd
+      - page2/page2.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: source
+
